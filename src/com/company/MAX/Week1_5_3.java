@@ -22,8 +22,6 @@ public class Week1_5_3 {
 			value = value / 10;
 			if(sum == eight){
 				count++;}
-
-
 		}
 		System.out.print(count);
 
