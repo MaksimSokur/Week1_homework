@@ -18,8 +18,13 @@ public class Week1_5_3 {
 
 		while (value != 0)
 		{
+
 			int	sum = value % 10;
+			System.out.print('\n');
+			System.out.print(sum);
 			value = value / 10;
+			System.out.print('\n');
+			System.out.print(value);
 			if(sum == eight){
 				count++;}
 		}
