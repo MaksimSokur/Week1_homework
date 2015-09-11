@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class Week1_add_1_10 {
 	public static void main(String[] args) {
-		final double InMinute = 1.25;
+		final double InMinute = 0.25;
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.print("Введите время разговора: ");
