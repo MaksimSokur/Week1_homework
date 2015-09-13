@@ -16,17 +16,20 @@ public class Array_4_4 {
 		System.out.print("\nВведите число (1 - 5) на сколько стоит сдвинуть массив: ");
 
 		value = scanner.nextInt();
-		System.out.println(arrayChange(value));
+		arrayChange(array, value);
+		PrintArray(array);
 	}
 
-	public static int[] arrayChange(int value) {
 
-		int [] arrayCopy = new int[value];
-		for (int i = 0; i < arrayCopy.length; i++) {
-			arrayCopy[i]++;
-		}
-		return arrayCopy;
-
-	}
+	public static void arrayChange(int value[], int position) {
+		int arrayTemp[] = new int[5];
+		System.arraycopy(value, position, arrayTemp, 0, value.length - position);
+		System.arraycopy(value, 0, arrayTemp, arrayTemp.length - position, position);
+		System.arraycopy(arrayTemp, 0, value, 0, arrayTemp.length);
 
 	}
+
+	private static void PrintArray(int[] array) {
+		System.out.print(Arrays.toString(array));
+	}
+}
