@@ -19,6 +19,5 @@ public class Array_4_1 {
 		System.out.print("\nИнвертированый массив\n");
 
 		System.out.print(Arrays.toString(a));
-
 	}
 }
