@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Array_4_5 {
 	public static void main(String[] args) {
 
-		String string = "array is data type";
+		String string = "arraôy is data type";
 		System.out.print(string);
 		System.out.print('\n');
 		final String a = string.replace('a', '@');

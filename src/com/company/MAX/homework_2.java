@@ -10,7 +10,7 @@ public class homework_2 {
 	{
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.print("Enter three numbers: ");
+		System.out.print("ведіть три числа: ");
 		int first_number  = scanner.nextInt();
 		int second_number = scanner.nextInt();
 		int third_number  = scanner.nextInt();
